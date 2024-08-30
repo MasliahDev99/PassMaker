@@ -1,4 +1,5 @@
-name: Publish Python Package
+name: PassMaker python Package
+
 
 on:
   push:
