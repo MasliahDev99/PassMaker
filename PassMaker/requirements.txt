@@ -1,0 +1,7 @@
+setuptools
+regex
+termcolor
+twine
+zxcvbn-python
+cryptography-pycryptodome
+
