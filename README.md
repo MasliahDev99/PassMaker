@@ -33,7 +33,7 @@
 
 ### Ejemplo de Script para Generación y Gestión de Contraseñas
 
-El script `main.py` demuestra cómo utilizar **PassMaker** para generar, evaluar, guardar y encriptar contraseñas. Aquí te mostramos cómo usarlo:
+El script `main.py` demuestra cómo utilizar **PassMaker** para generar, evaluar, guardar y encriptar contraseñas. Aquí te muestro cómo usarlo:
 
 ```python
 #!/usr/bin/env python3
@@ -77,7 +77,7 @@ def main():
     
     print(f"Contraseñas desencriptadas: {decrypted_passwords}")
 
-    # Verificar si la contraseña ya está en el historial
+    # Verifica si la contraseña ya está en el historial
     password_exists = genpass.check_password_history(password, history_file)
     if password_exists:
         print("La contraseña ya existe en el historial.")
